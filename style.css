@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    padding-top: 50px;
+    margin-bottom: 60px;
+}
+
+.nav-container {
+    display: flex;
+}
+
+header a {
+    color: grey;
+    text-align: center;
+    padding-left: 48px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+h2 {
+    color: gold;
+    font-size: 45px;
+}
+
+h3 {
+    font-style: normal;
+    color: white;
+}
+
+h4 {
+    color: rgb(23, 34, 82);
+    font-size: 18px;
+}
+
+h5 {
+    color: rgb(151, 151, 151);
+    font-size: 40px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px
+}
+
+h6 {
+    color: grey;
+    font-size: 17px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-weight: normal;
+    line-height: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    color: grey;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-container {
+    display: flex;
+}
+
+.side-posts {
+    background-color: black;
+    padding-left: 27px;
+    padding-right: 27px;
+}
+.side-posts li {
+    border-bottom: 1px solid grey;
+    padding-bottom: 28px;
+}
+.side-posts li:last-child {
+    border:none;
+}
+
+.main-body {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.main-post {
+    display: flex;
+    flex-direction: column;
+    flex: 70%;
+}
+
+.side-posts {
+    display: flex;
+    flex-direction: column;
+    flex: 30%;
+}
+
+.post-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+
+.post-title {
+    font-size: 38px;
+    line-height: 70px;
+    padding: 0px;
+    margin: 0;
+    flex: 50%;
+}
+
+.post-content {
+    font-size: 20px;
+    flex: 50%
+}
+
+#post-image {
+    width: 100%
+}
+
+button {
+    background-color: red;
+    color: white;
+    border-color: red;
+    letter-spacing: 2px;
+    padding: 20px;
+    box-shadow: none;
+    margin-top: 8px;
+}
+
+.related-posts {
+    display: flex;
+    margin-top: 60px;
+}
+
+.rel-post-img {
+    margin-right: 20px;
+
+}
+
+.rel-post {
+    display: flex;
+    flex: 1;
+}
